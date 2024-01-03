@@ -1,0 +1,16 @@
+.nav 
+{
+    padding:10px;
+    background-color: red;
+    height:30px;
+    width:100%;
+    text-decoration: none;
+    float:;
+}
+#pagelinks{
+    height:90px;
+    width:100%;
+    background-color:white;
+    position:sticky;
+    top:0;
+}
