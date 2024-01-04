@@ -39,13 +39,12 @@ function App() {
           Solution
         </Link>
         <Link to="/Service" class="nav">
-          Service
         </Link>
         <Link to="/Industries" class="nav">
           Industries
         </Link>
         <Link to="/" class="nav">
-          PRESIDIO
+          <img src="https://www.presidio.com/icheestu/2021/02/Presidio-blue-logo.svg" alt=""></img>
         </Link>
         <Link to="/Insight" class="nav">
           Insight
@@ -57,13 +56,12 @@ function App() {
           Company
         </Link>
         </div>
-        
-        
-            
             <Routes>
               <Route>
                 <Route path="/Solution" element={<Solution/>}></Route>
-                <Route path="/Service" element={<Service></Service>}></Route>
+                <Route path="/Service" element={<Service></Service>}>
+                </Route>
+
                 <Route path="/Industries" element={<Industries></Industries>}></Route>
                 <Route path="/" element={<PRESIDIO></PRESIDIO>}></Route>
                 <Route path="/Insight" element={<Insight></Insight>}></Route>
@@ -72,8 +70,11 @@ function App() {
               </Route>
             </Routes>
           </Router>
+          {/*  */}
+          <div id="footer"><img class="image1" src="footer.jpg" alt=""></img></div>
+          
+
       </body>
   );
 }
-
 export default App;

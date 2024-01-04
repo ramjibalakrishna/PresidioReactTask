@@ -3,7 +3,7 @@ export default function Industries() {
       <body>
         
         
-  
+  <img src="indust.png" alt=""></img>
       </body>
     );
   }

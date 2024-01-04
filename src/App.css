@@ -1,9 +1,8 @@
 #topicons
 {
 background-color: black;
-height:65px;
+height:60px;
 width:100%;
-margin-bottom:40px;
 margin-top:-10px;
 top:0;
 padding-top:7px;
@@ -15,9 +14,11 @@ padding-top:7px;
   text-decoration: none;
   padding:7px;
   color:white;
-
 }
-#ind  li
+#icons li :hover{
+  color:red;
+}
+#ind li
 {
   float:right;
   display:inline;
@@ -25,6 +26,12 @@ padding-top:7px;
   padding:5px;
   color:white;
    padding-right:30px;
+}
+#ind li :hover
+{
+font-size:15px;
+color:darkblue;
+font-family:cursive;
 }
 #ind span
 {
@@ -38,14 +45,113 @@ padding-top:7px;
   display:flex;
   justify-content: center;
   align-items: center;
-  height:40px;
-  background-color: red;
-
+ padding:30px 0px;
+  background-color: #ffff;
+  position:sticky;
+  top:0;
 } 
+#pagelinks on hover{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ padding:30px 0px;
+  background-color: orangered;
+  position:sticky;
+  top:0;
+}
 .nav{
   padding-right:30px;
-  text-decoration: none;
+  text-decoration:none;
+  font-size: 15px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 600;
+}
+#pagelinks on scroll{
+  height:50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  position:sticky;
+  top:0;
+  font-size:10px;
+  cursor:pointer;
+} 
+.nav on scroll{
+  padding-right:30px;
+  text-decoration:none;
   font-size:20px;
   letter-spacing:2px;
   font:uppercase;
+  color:black;
+  font-style:bold;
+}
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+/*#footer {
+  background-image: url(../public/footerd.png);
+  background-size:fixed;
+  margin-top:300px;
+  width: 100%;
+  height:400px;
+  background-repeat: no-repeat;
+  
+}*/
+
+.image1{
+  width: 100%;
+}
+#footerd
+{
+  display:flex;
+}
+.foot{
+  width:20%;
 }

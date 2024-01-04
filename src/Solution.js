@@ -1,10 +1,8 @@
+import"./Solution.css";
 const Solution=()=>{
     return(
         <body>
-            <h1>hi</h1>
-            <h1>hi</h1>
-            <h1>hi</h1>
-            <h1>hi</h1>
+            <img src="oursolution.png"></img>
         </body>
     );
 };
