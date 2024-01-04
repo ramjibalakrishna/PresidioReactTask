@@ -104,7 +104,7 @@ ALL THE AREAS THAT COUNT FOR YOUR BUSINESS</h2>
             
 
             <div id="contenthree">
-                <div class="contentcontainer">
+                <div id="contentcontainer">
                 <div id="Thinking">
                     <h1>Thinking, Doing, Managing, Globally.</h1>
                      <img src="https://www.presidio.com/icheestu/2021/03/line-orange.svg" alt="" width="60" height="60" class="alignnone size-medium wp-image-3571 no-lazyload" loading="lazy"></img>

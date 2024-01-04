@@ -115,9 +115,23 @@ flex-direction: row;
     margin-bottom:90px;
 }*/
 
-#contentthree{
+#contentcontainer{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+#Thinking{
+    display: flex;
+    flex-direction:column;
+    width: 40%;
+    justify-content: center;
     align-items: center;
+}
+#fullservicelifecycle{
+    display:flex;
+    justify-content: center;
+
 }
 .lifecyclecont {
     display: flex;
